@@ -9,7 +9,6 @@ venv/
 env/
 
 # Django static and media
-staticfiles/
 media/
 
 # IDEs and editors
