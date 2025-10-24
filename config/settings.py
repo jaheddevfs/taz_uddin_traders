@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-62m7-!7wa(p2#kk_j1=-+1*qr%o-q2ftovucaolsnxd_@szzm*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.vercel.app', '*']
 
@@ -131,4 +131,5 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 # Login URLs
 LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'core:dashboard'
+
 LOGOUT_REDIRECT_URL = 'core:home'
